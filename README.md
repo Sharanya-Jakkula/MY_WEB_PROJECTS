@@ -1,0 +1,1 @@
+This repository contains a collection of web development projects built using HTML, CSS, JavaScript, and various frameworks. These projects range from beginner-friendly static websites to advanced dynamic applications.
