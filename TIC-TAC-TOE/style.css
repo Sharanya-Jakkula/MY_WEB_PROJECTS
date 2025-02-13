@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right,#d81ce6,#1faaaa);
+    height: 109vh;
+}
+.level1,.level2,.level3{
+    display: flex;
+    justify-content: center;
+}
+.game{
+    text-align: center;
+    border: 2px solid rgb(202, 198, 198);
+    height: 700px;
+    width:500px;
+    margin-left: 400px;
+    margin-top: 20px;
+    background: linear-gradient(to right,#a643af,#739e9e);
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+.container{
+    
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.div{
+height: 130px;
+width:130px;
+display: flex;
+margin-top: 10px;
+margin-left: 10px;
+justify-content: center;
+align-items: center;
+border:1px solid rgb(90, 84, 84);
+font-size: 70px;
+color: rgb(213, 218, 223);
+}
+
+.div:hover{
+    border: none;  
+    box-shadow:3px 3px 9px 9px rgb(70, 175, 189);
+    cursor: pointer;
+}
+
+.msg{
+    background:linear-gradient(to right,#a643af,#739e9e);
+    margin: 25px;
+    height: 70px;
+    display: flex;
+    width:413px;
+    box-shadow: 1px 1px 5px 5px #1faaaa;
+    border: none;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(252, 250, 248);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+#reset{
+    width:150px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #739e9e;
+    font-size: 23px;
+    color: rgb(70, 64, 64);
+
+}

@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/home/rgukt123/MY_WEB_PROJECTS/DROPDOWN_DEMO/forest-3119826_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    
+    font-family: sans-serif;
+}
+
+.menubar{
+    background: rgba(0,0,0);
+    text-align: center;
+
+}
+
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menubar ul li{
+    width:120px;
+    margin:15px;
+    padding: 15px;
+}
+
+.menubar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active,.menubar ul li:hover{
+    background: #222222;
+}
+
+.sub-menu1{
+    display: none;
+}
+
+.menubar ul li:hover .sub-menu1{
+    display: block;
+    position:absolute;
+    background-color: rgba(0,0,0);
+    margin-top: 15px;
+    margin-left: -15px;
+    color: #fff;
+}
+
+.menubar ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.menubar ul li:hover .sub-menu1 ul li{
+    width:150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menubar ul li:hover .sub-menu1 ul li:last-child{
+    border-bottom: none;
+}
+

@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+background-color: black;
+}
+.section2{
+    height:30rem;
+    background-color: whitesmoke;
+    margin-top:0.5px ;
+    display: flex;
+    gap: 5rem;
+    color:white;
+}
+.section3{
+    height:30rem;
+    background-color: whitesmoke;
+    margin-top: 3px;
+
+}
+.navbar{
+    height:3.5rem;
+    background-color:rgb(51, 116, 119);
+}
+#options{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color:rgba(145, 128, 141, 0.5);
+    text-decoration: underline;
+}
+
+
+ul{
+    list-style-type:none ;
+}
+.section4{
+    height:30rem;
+    background-color: whitesmoke;
+    margin-top: 3px;
+}
+
+#foot{
+    height:4rem;
+    background-color: rgb(51, 116, 119);
+    color:white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#con{
+    padding:20px;
+    font-size: large;
+    color: white;
+}
+
+.img{
+    object-fit: cover;
+}
+#pic{
+    height: 300px;
+    width: 300px;
+    margin: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right:20px ;
+    
+}
+.para,.par{
+    color:black;
+    margin: 10px;
+    padding: auto;
+}
+i{
+    color: white;
+    padding-right: 8px;
+}
+.home,.about,.service,.contact{
+    display: flex;
+}
+
+#name{
+    color:black;
+    font-size: 60px;
+    margin-top: 90px;
+}
+
+#special{
+    color:rgb(161, 129, 129);
+}
+#code{
+    color:rgb(71, 68, 68);
+}
+#skill{
+    font-size: 50px;
+    color:rgb(109, 104, 104);
+    padding: 10px;
+    padding-left: 540px;
+}
+
+.python,.java,.web,.sql{
+    padding-top: 50px;
+    object-fit: cover;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    object-fit: cover;
+}
+#new{
+    color:black;
+}
+#icon{
+    height:180px;
+    width:180px;
+    border:2px solid black;
+    border-radius:50%;
+
+}
+.sk{
+    margin-top: 15px;
+}
+#java{
+    margin-left: 70px;
+}
+#python{
+    margin-left: 37px;
+}
+#sql{
+    margin-left: 50px;
+}
+
+#project{
+    font-size: 35px;
+    color: rgb(90, 84, 84);
+    padding: 10px;
+    padding-left: 700px;
+    display: inline;
+}
+#primage{
+    height: 450px;
+    width:450px;
+    padding: 5px;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+}
+#explain{
+    margin: 20px;
+    line-height: 30px;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 3px;
+}
+#pr{
+font-size: 40px;
+padding: 20px;
+padding-left: 240px;
+}
+.msg{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding: 20px;
+}

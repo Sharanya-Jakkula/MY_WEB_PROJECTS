@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(to right,#f7eb84,#fcf);
+    height: 109vh;
+}
+.calci h1{
+    font-size: 44px;
+    font-weight: bold;
+    padding: 20px;
+    color: rgb(255, 253, 253);
+    padding-top: 18px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 2px;
+
+}
+
+.calci{
+    background-color: transparent;
+    border: 0.5px solid rgb(173, 169, 169);
+    border-top: none;
+    border-bottom: none;
+    height: 550px;
+    width:400px;
+    margin-top: 60px;
+    margin-left: 450px;
+    box-shadow: 5px 5px 10px 10px rgb(92, 111, 114);
+    position: absolute;
+}
+.numbers{
+    text-align: center;
+}
+
+.input{
+    width:365px;
+    height:70px;
+    margin-left: 18px;
+    background-color: rgb(146, 155, 165);
+    border-radius: 3px;
+    border-color: lightgray;
+    margin-bottom: 20px;
+    color: white;
+    box-shadow: 5px 5px 5px 5px rgb(201, 207, 212) ;
+    text-align: right;
+    font-size: 50px;
+    overflow: hidden;
+    padding: 2px;
+}
+
+button{
+width:80px;
+height:60px;
+margin:5px;
+border-radius: 5px;
+font-size: 25px;
+background-color: rgb(198, 212, 226);
+    border-radius: 5px;
+}
+.level4,.level0,.level1,.level2,.level3{
+    float: left;
+    margin-left: 13px;
+}
+
+
+#special{
+    height:130px;
+    margin-left: 0px;
+    background-color: lightgreen;
+    border-radius: 2px;
+}
+#AC{
+    color: red;
+}
+
+

@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to top,rgba(0,0,0,0.5)90%,rgba(0,0,0,0.5)90%),url("/home/rgukt123/MY_WEB_PROJECTS/formpage/forest-3119826_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.nav{
+    background-color: rgba(0,0,0,0.5);
+    height: 70px;
+    display: flex;
+}
+
+#icon{
+    color: #fff;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.nav .menu{
+    display: flex;
+    float: right;
+    margin-left: 330px;
+    padding-top: 20px;
+}
+
+
+
+.menu ul a{
+    text-decoration: none;
+} 
+
+.nav .menu ul a li{
+    color:#fff;
+    list-style: none;
+    padding-top: 5px;
+    font-weight: bold;
+    font-family: Arial;
+    letter-spacing: 1px;
+    margin-right: 80px;
+    position: relative;
+}
+
+h1{
+    color:#fff;
+    padding-top: 140px;
+    padding-left:340px;
+    font-size: 50px;
+}
+#info{
+    color: #fff;
+}
+.info{
+    padding-left: 340px;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding-left: 340px;
+    padding-top: 60px;
+}
+button{
+    width:200px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #009688;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #009688;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    z-index: -1;
+}
+.nav .menu ul a li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position:absolute;
+    bottom: -10px;
+    left:7px;
+    transition: 0.5s;
+}
+.nav .menu ul a li:hover::after{
+    width:100%;
+}
+
+
+
